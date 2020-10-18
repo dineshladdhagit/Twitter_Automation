@@ -10,7 +10,7 @@ import io.cucumber.junit.Cucumber;
 @CucumberOptions(
 		features="src/test/resources/features",
 		glue= {"StepDefinitions"},
-		//tags="@CaptureTweets",		//@ProfileUpdate",//@CaptureTweets",// and @ProfileUpdate",
+		tags="@Login",		//@ProfileUpdate",//@CaptureTweets",// and @ProfileUpdate",
 		dryRun=false,
 		//monochrome = true,
 		plugin={"pretty","html:target/HtmlReports",

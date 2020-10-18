@@ -1,5 +1,6 @@
 package StepDefinitions;
 
+import java.util.List;
 import java.util.Map;
 
 import org.apache.log4j.Logger;
@@ -23,6 +24,7 @@ public class StepDefinition extends LoginPage {
 	LoginPage login;
 	ProfilePage profilePage;
 	TwitterHandlePage twitterHandlePage;
+	DataTable userCredentials;
 	String scenarioName = "";
 
 	@Before
@@ -38,7 +40,9 @@ public class StepDefinition extends LoginPage {
 
 	@After
 	public void tearDown() {
-		TestBase.driver.close();
+		//TestBase.driver.close();
+		TestBase.driver.quit();
+		TestBase.driver=null;
 		log.info("**********************Completed execution for scenario : " + scenarioName + "**********************");
 	}
 
@@ -61,17 +65,11 @@ public class StepDefinition extends LoginPage {
 	}
 
 	@When("user enters credentials to Login")
-	public void user_enters_credentials(DataTable usercredentials) throws Throwable {
-
-		// To handle Data Table
-		for (Map<String, String> data : usercredentials.asMaps()) {
-			login(data.get("userName"), data.get("pwd"));
-			// driver.findElement(By.id("log")).sendKeys(data.get("Username"));
-			// driver.findElement(By.id("pwd")).sendKeys(data.get("Password"));
-			// driver.findElement(By.id("login")).click();
-			login.validateLogin();
-		}
-
+	public void user_enters_credentials(DataTable usercredentials) throws Throwable {		
+	  for (Map<Object, Object> data : usercredentials.asMaps(Object.class, Object.class)) {
+		  login(data.get("userName").toString(), data.get("pwd").toString());
+		  login.validateLogin("false");
+	  }
 	}
 
 	// Profile Page methods

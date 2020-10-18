@@ -1,353 +1,49 @@
-2020-10-18 20:08:39 INFO  TestBase:67 - Successfully Loaded confirguration properties
-2020-10-18 20:08:39 INFO  StepDefinition:32 - **********************Starting execution for scenario : Caputre tweets from a Twitter Handle and split the tweets**********************
-2020-10-18 20:08:43 INFO  TestBase:47 - Initialized browserName chrome instance
-2020-10-18 20:08:44 INFO  TestBase:56 - Launched https://twitter.com/ url
-2020-10-18 20:08:45 INFO  TestUtil:25 - Clicked on Login Button on Home Page
-2020-10-18 20:08:45 INFO  TestUtil:33 - Entered testacc18694292 value on Phone, email or username field text box
-2020-10-18 20:08:45 INFO  TestUtil:33 - Entered Test@123 value on Password Field text box
-2020-10-18 20:08:49 INFO  TestUtil:33 - Entered The Times Of India value on Search Tweets text box
-2020-10-18 20:08:51 INFO  TestUtil:25 - Clicked on The Times Of India
-2020-10-18 20:09:24 INFO  ProfilePage:68 - Total tweets are 38
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#1********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\4 Punjab: Families of the victims of 2018 Amritsar 
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\4 rain accident hold a candlelight protest in the 
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\4 ity demanding action against those responsible f
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 4\4 r the accident.
-
-~ANI
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#2********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\3 I am confident that Eknath Khadse, who is our sen
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\3 or leader will remain with the party: Maharashtr
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\3  BJP President Chandrakant Patil (file pic) 
-
-~ANI
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#3********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\6 Tension at Assam-Mizoram border as several injure
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\6  in violent clash
-
-Simmering tension prevailed o
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\6  the Assam-Mizoram border after a violent clash 
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 4\6 ook place between the people of the two states, 
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 5\6 njuring several, a police officer in Aizawl said
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 6\6 
-http://toi.in/mgdX4b/a24gk
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#4********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\3 #IPL2020
- #MIvsKXIP | Match 36
-
-End of Powerplay!
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\3 
-Mumbai Indians reach 43/3 after six overs
-
-Foll
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\3 w for live updates:
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#5********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\4 #IPL2020
- #MIvsKXIP | Match 36
-
-OUT!
-
-Another one
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\4 bites the dust as MI in early trouble!
-
-Arshdeep
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\4 strikes again to send Ishan Kishan back
-
-MI 38/3
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 4\4 in 5.1 overs
-
-Follow for live updates:
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#6********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\2 Biden is dominating Trump on the airwaves in batt
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\2 egrounds 
-
-http://toi.in/xJHfmZ13/a24gk
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#7********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\2 MP bypolls: BJP decries Nath's 'item' jibe for wo
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\2 an candidate 
-
-Read--http://toi.in/t71h6a/a24gk
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#8********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\3 #IPL2020
- #SRHvsKKR | Match 35
-
-IPL 2020: Kolkata
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\3 Knight Riders beat Sunrisers Hyderabad via Super
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\3 Over in Abu Dhabi
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#9********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\4 #IPL2020
- #MIvsKXIP | Match 36
-
-OUT!
-
-Big wicket 
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\4 or Kings XI Punjab
-
-Arshdeep comes back strongly
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\4 to clean up Rohit Sharma (9)
-
-MI 23/1 in 2.5 ove
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 4\4 s
-
-Follow for live updates:
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#10********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\3 #IPL2020
- #MIvsKXIP | Match 36
-
-SIX!
-
-Quinton de 
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\3 ock hits first six of the match off Arshdeep
-
-MI
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\3 22/0 in 2.3 overs
-
-Follow for live updates:
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#11********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\3 Top 10 news of the day
-
-ADR report on public fund
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\3 ng, Chinese build-up along LAC & more 
-
-Read--ht
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\3 p://toi.in/6qjkuZ/a24gk
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#12********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\6 #COVID19
-
-Harsh Vardhan says Kerala paying price 
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\6 or 'gross negligence' during Onam 
-
-The minister
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\6 said this ought to serve as a good lesson for al
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 4\6  the state governments that were being negligent
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 5\6 in planning for the festival season
-http://toi.i
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 6\6 /HgsqFZ58/a24gk
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#13********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\2 I have not resigned from the party: Maharashtra B
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\2 P leader Eknath Khadse to ANI (file pic)
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#14********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\3 Pakistan fails to fulfil 6 key mandates of FATF; 
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\3 o action against Masood Azhar, Hafiz Saeed 
-
-htt
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\3 ://toi.in/8wp9wY/a24gk via 
-@TOIWorld
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#15********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\4 Tracking #COVID19 |  October 18, 2020 (7:30 PM, I
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\4 T)
-
-Covid-19 tally in India climbs to 
-7,504,743
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\4 
-For complete coverage on Covid-19 outbreak, log
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 4\4 on to
-https://bit.ly/3aZva4w
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#16********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\2 Tharoor's remarks at Lahore event spark BJP-Congr
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\2 ss spat 
-
-Read--http://toi.in/ruu3Zb/a24gk
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#17********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\3 #ChampionsLeague #COVID19 
-
-Condensed 
-@Champions
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\3 eague
- to start under shadow of COVID-19
-
-READ--
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\3 http://toi.in/u6R0eb/a24gk
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#18********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\5 #IPL2020
- #SRHvsKKR | Match 35
-
-OUT! Abdul Samad'
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\5  (23) cameo comes to an end
-
-Relay catch at deep
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\5 midwicket between Lockie and Gill
-
-SRH 146/6 in 
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 4\5 9 overs, need 18 runs in 6 balls
-
-Follow for liv
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 5\5  updates:
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#19********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\3 No major mutation observed in SARS-COV 2, no indi
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\3 ation vaccine strategy would be hindered: Study 
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\3 http://toi.in/-g8mxY/a24gk
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#20********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\4 #IPL2020
- #SRHvsKKR | Match 35
-
-SIX! Abdul Samad 
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\4 macks over square leg for maximum off Cummins 
-
-
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\4 RH 117/5 in 15.5 overs, need 47 runs off 25 ball
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 4\4 
-
-Follow for live updates:
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#21********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\5 There is no scientific evidence that proves that 
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\5 ovel #coronavirus transmission can happen via ne
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\5 spapers. Newspapers are completely safe and are 
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 4\5 ot a source of novel #coronavirus transmission: 
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 5\5 nion Minister 
-@drharshvardhan
- 
-
-#SundaySamvaad
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#22********************
-2020-10-18 20:09:24 INFO  ProfilePage:96 - 1 
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#23********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\6 I'll observe 'silent protest' tomorrow for two ho
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\6 rs from 10 am to 12 noon, against former Madhya 
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\6 radesh CM & Congress leader Kamal Nath's remarks
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 4\6 wherein he referred to BJP leader Imarti Devi as
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 5\6 "item". He should be ashamed of his statement: M
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 6\6 dhya Pradesh CM Shivraj S Chouhan
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#24********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\3 600 researchers seek proof of cow dung effect on 
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\3 adiation claim by Rashtriya Kamdhenu Aayog 
-
-Rea
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\3 --http://toi.in/W9WXCb/a24gk
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#25********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\4 #IPL2020
- #SRHvsKKR | Match 35
-
-OUT! Lockie Fergu
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\4 on is on fire, cleans up Manish Pandey for 6
-
-SR
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\4  82/4 in 11.3 overs - Target 164
-
-Follow for liv
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 4\4  updates:
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#26********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\3 #BiharElections2020
-No qualms on mounting critici
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\3 m, but BJP should use words wisely: Chirag Paswa
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\3  
-
-Read--http://toi.in/_yY5Bb/a24gk
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#27********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\5 Madhya Pradesh Bharatiya Janata Party unit submit
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\5  complaint to Election Commission against Former
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\5 Madhya Pradesh CM and Congress leader Kamal Nath
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 4\5 for 'referring to BJP leader Imarti Devi as "ite
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 5\5 " at an election rally'. (ANI)
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#28********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\6 No fresh lockdowns recommended at local level: Go
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\6 t-appointed panel on #COVID19
-
-The committee als
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\6  claimed that if all protocols are followed, the
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 4\6 pandemic can be controlled by early next year wi
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 5\6 h minimal active symptomatic infections by Febru
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 6\6 ry-end
-
-http://toi.in/L-zP9Y/a24gk
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#29********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\6 I appeal to everyone to download an app, 'SAMEER'
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\6  it will give you complete information about the
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\6 polluted areas in various cities across the coun
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 4\6 ry. It identifies areas having heavy pollution w
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 5\6 th a red mark: Union Environment Minister Prakas
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 6\6  Javadekar
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#30********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\6 #COVID19 | Reading newspapers completely safe, sa
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\6 s Harsh Vardhan 
-
-During an interaction with his
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\6 social media followers on the sixth episode 'Sun
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 4\6 ay Samvaad', Vardhan rekindled the joy of having
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 5\6 morning tea with the daily newspaper in a respon
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 6\6 ent
-
-Read--http://toi.in/PIAVBY/a24gk
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#31********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\3 Over 2 lakh e-vehicles being used in India curren
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\3 ly. E-vehicles are becoming popular. I myself us
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\3  an e-vehicle: Prakash Javadekar (PTI)
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#32********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\5 Punjab CM Captain Amarinder Singh authorized by h
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\5 s council of ministers to take any legislative/l
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\5 gal decision he may deem fit to protect the inte
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 4\5 ests of the farmers: Punjab government #FarmLaws
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 5\5 
-~ANI
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#33********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\4 #IPL2020
- #SRHvsKKR | Match 35
-
-Welcome Back!
-
-Ka
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\4 e Williamson, Jonny Bairstow are at the crease t
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\4  begin SRH's chase
-
-Pat Cummins will open the at
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 4\4 ack for KKR
-
-Follow for live updates:
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#34********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\2 Sonia asks Congress leaders to wage struggle for 
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\2 eople's issues
-http://toi.in/--ICTY80/a24gk
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#35********************
-2020-10-18 20:09:24 INFO  ProfilePage:96 - 1 No entry in Dubai without return tickets 
-
-#Dubai
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#36********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\2 Pune airport to remain shut during night for a ye
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\2 r  
-
-#PuneAirport
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#37********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\4 #COVID19 | 28 more fatalities take Delhi's COVID-
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\4 9 death toll past 6,000-mark; 3,299 fresh cases 
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\4 ush infection tally to 3,31,017: Authorities (PT
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 4\4 )
-
-Live updates
-2020-10-18 20:09:24 INFO  ProfilePage:82 - *******************Tweet Number#38********************
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 1\3 #IPL2020
- #SRHvsKKR | Match 35
-
-SIX! Dinesh Karth
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 2\3 k finishes the over with a maximum
-
-KKR 147/4 in
-2020-10-18 20:09:24 INFO  ProfilePage:92 - 3\3 19 overs
-
-Follow for live updates:
-2020-10-18 20:09:24 INFO  StepDefinition:42 - **********************Completed execution for scenario : Caputre tweets from a Twitter Handle and split the tweets**********************
-2020-10-18 20:09:24 INFO  TestBase:67 - Successfully Loaded confirguration properties
-2020-10-18 20:09:24 INFO  StepDefinition:32 - **********************Starting execution for scenario : Validate Login is successfll with valid credentials**********************
-2020-10-18 20:09:35 INFO  TestBase:47 - Initialized browserName chrome instance
-2020-10-18 20:09:37 INFO  TestBase:56 - Launched https://twitter.com/ url
-2020-10-18 20:09:38 INFO  TestUtil:25 - Clicked on Login Button on Home Page
-2020-10-18 20:09:38 INFO  TestUtil:33 - Entered testacc18694292 value on Phone, email or username field text box
-2020-10-18 20:09:38 INFO  TestUtil:33 - Entered Test@123 value on Password Field text box
-2020-10-18 20:09:41 INFO  StepDefinition:42 - **********************Completed execution for scenario : Validate Login is successfll with valid credentials**********************
-2020-10-18 20:09:41 INFO  TestBase:67 - Successfully Loaded confirguration properties
-2020-10-18 20:09:41 INFO  StepDefinition:32 - **********************Starting execution for scenario : Update profile and validate the updates**********************
-2020-10-18 20:09:43 INFO  TestBase:47 - Initialized browserName chrome instance
-2020-10-18 20:09:44 INFO  TestBase:56 - Launched https://twitter.com/ url
-2020-10-18 20:09:46 INFO  TestUtil:25 - Clicked on Login Button on Home Page
-2020-10-18 20:09:46 INFO  TestUtil:33 - Entered testacc18694292 value on Phone, email or username field text box
-2020-10-18 20:09:47 INFO  TestUtil:33 - Entered Test@123 value on Password Field text box
-2020-10-18 20:09:49 INFO  TestUtil:25 - Clicked on Profile Button
-2020-10-18 20:09:50 INFO  TestUtil:25 - Clicked on Edit Profile Button
-2020-10-18 20:09:51 INFO  TestUtil:33 - Entered Selenium Automation User value on Profile Bio Field text box
-2020-10-18 20:09:52 INFO  TestUtil:33 - Entered Pune, Hyderabad value on Profile Location Field text box
-2020-10-18 20:09:52 INFO  TestUtil:33 - Entered twitter.com value on Profile Website Field text box
-2020-10-18 20:09:52 INFO  TestUtil:25 - Clicked on Profile Save Button
-2020-10-18 20:09:53 INFO  TestUtil:25 - Clicked on Profile Link
-2020-10-18 20:09:53 INFO  TestUtil:45 - Fetched value from label: Profile Bio Label
-2020-10-18 20:09:53 INFO  TestUtil:45 - Fetched value from label: Profile Location Label
-2020-10-18 20:09:53 INFO  TestUtil:45 - Fetched value from label: Profile Website Label
-2020-10-18 20:09:53 INFO  StepDefinition:42 - **********************Completed execution for scenario : Update profile and validate the updates**********************
+2020-10-19 00:38:38 INFO  TestBase:67 - Successfully Loaded confirguration properties
+2020-10-19 00:38:38 INFO  StepDefinition:34 - **********************Starting execution for scenario : Validate Login is successfll with valid credentials**********************
+2020-10-19 00:39:11 INFO  TestBase:47 - Initialized browserName chrome instance
+2020-10-19 00:39:14 INFO  TestBase:56 - Launched https://twitter.com/ url
+2020-10-19 00:39:16 INFO  TestUtil:25 - Clicked on Login Button on Home Page
+2020-10-19 00:39:18 INFO  TestUtil:33 - Entered testacc18694292 value on Phone, email or username field text box
+2020-10-19 00:39:18 INFO  TestUtil:33 - Entered Test@123 value on Password Field text box
+2020-10-19 00:39:23 INFO  StepDefinition:44 - **********************Completed execution for scenario : Validate Login is successfll with valid credentials**********************
+2020-10-19 00:39:23 INFO  TestBase:67 - Successfully Loaded confirguration properties
+2020-10-19 00:39:23 INFO  StepDefinition:34 - **********************Starting execution for scenario : Validate Login for invalid credentials**********************
+2020-10-19 00:39:33 INFO  TestBase:47 - Initialized browserName chrome instance
+2020-10-19 00:39:36 INFO  TestBase:56 - Launched https://twitter.com/ url
+2020-10-19 00:39:37 ERROR TestUtil:38 - Phone, email or username field is not visible
+2020-10-19 00:39:37 ERROR TestUtil:38 - Password Field is not visible
+2020-10-19 00:39:38 INFO  StepDefinition:44 - **********************Completed execution for scenario : Validate Login for invalid credentials**********************
+2020-10-19 00:47:07 INFO  TestBase:67 - Successfully Loaded confirguration properties
+2020-10-19 00:47:07 INFO  StepDefinition:34 - **********************Starting execution for scenario : Validate Login is successfll with valid credentials**********************
+2020-10-19 00:47:11 INFO  TestBase:47 - Initialized browserName chrome instance
+2020-10-19 00:47:12 INFO  TestBase:56 - Launched https://twitter.com/ url
+2020-10-19 00:47:14 INFO  StepDefinition:46 - **********************Completed execution for scenario : Validate Login is successfll with valid credentials**********************
+2020-10-19 00:47:14 INFO  TestBase:67 - Successfully Loaded confirguration properties
+2020-10-19 00:47:14 INFO  StepDefinition:34 - **********************Starting execution for scenario : Validate Login for invalid credentials**********************
+2020-10-19 00:47:17 INFO  TestBase:47 - Initialized browserName chrome instance
+2020-10-19 00:47:19 INFO  TestBase:56 - Launched https://twitter.com/ url
+2020-10-19 00:47:20 ERROR TestUtil:38 - Phone, email or username field is not visible
+2020-10-19 00:47:20 ERROR TestUtil:38 - Password Field is not visible
+2020-10-19 00:47:20 INFO  StepDefinition:46 - **********************Completed execution for scenario : Validate Login for invalid credentials**********************
+2020-10-19 00:48:48 INFO  TestBase:67 - Successfully Loaded confirguration properties
+2020-10-19 00:48:48 INFO  StepDefinition:34 - **********************Starting execution for scenario : Validate Login is successfll with valid credentials**********************
+2020-10-19 00:48:53 INFO  TestBase:47 - Initialized browserName chrome instance
+2020-10-19 00:48:54 INFO  TestBase:56 - Launched https://twitter.com/ url
+2020-10-19 00:48:55 INFO  TestUtil:25 - Clicked on Login Button on Home Page
+2020-10-19 00:48:57 INFO  TestUtil:33 - Entered testacc18694292 value on Phone, email or username field text box
+2020-10-19 00:48:58 INFO  TestUtil:33 - Entered Test@123 value on Password Field text box
+2020-10-19 00:49:02 INFO  StepDefinition:46 - **********************Completed execution for scenario : Validate Login is successfll with valid credentials**********************
+2020-10-19 00:49:03 INFO  TestBase:67 - Successfully Loaded confirguration properties
+2020-10-19 00:49:03 INFO  StepDefinition:34 - **********************Starting execution for scenario : Validate Login for invalid credentials**********************
+2020-10-19 00:49:11 INFO  TestBase:47 - Initialized browserName chrome instance
+2020-10-19 00:49:13 INFO  TestBase:56 - Launched https://twitter.com/ url
+2020-10-19 00:49:13 ERROR TestUtil:38 - Phone, email or username field is not visible
+2020-10-19 00:49:13 ERROR TestUtil:38 - Password Field is not visible
+2020-10-19 00:49:14 INFO  StepDefinition:46 - **********************Completed execution for scenario : Validate Login for invalid credentials**********************
+2020-10-19 00:52:42 INFO  TestBase:67 - Successfully Loaded confirguration properties
+2020-10-19 00:52:42 INFO  StepDefinition:34 - **********************Starting execution for scenario : Validate Login for invalid credentials**********************
+2020-10-19 00:52:46 INFO  TestBase:47 - Initialized browserName chrome instance
+2020-10-19 00:52:47 INFO  TestBase:56 - Launched https://twitter.com/ url
+2020-10-19 00:52:48 ERROR TestUtil:38 - Phone, email or username field is not visible
+2020-10-19 00:52:48 ERROR TestUtil:38 - Password Field is not visible
+2020-10-19 00:52:48 INFO  StepDefinition:46 - **********************Completed execution for scenario : Validate Login for invalid credentials**********************
