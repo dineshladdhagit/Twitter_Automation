@@ -26,16 +26,28 @@ public class TestUtil {
 		}
 	}
 	
-	public void sendKeys (WebElement element, String elementName, String value){
+	public void sendkeys (WebElement element, String elementName, String value){
 		if(dynamicWait(element,"VisibilityOfElementLocated")){
 			if(dynamicWait(element,"ElementToBeClickable")){
 				element.sendKeys(value);
-				log.info("Entered "+value+"value on "+elementName+" text box");
+				log.info("Entered "+value+" value on "+elementName+" text box");
 			}else{
 				log.error(elementName+" is not clickable");
 			}
 		}else{
 			log.error(elementName+" is not visible");
+		}
+	}
+	
+	public String fetchValueFromWebElement (WebElement element, String elementName) {
+		if(dynamicWait(element, "VisibilityOfElementLocated")) {
+			String eleValue = element.getText();
+			log.info("Fetched value from label: " +elementName);
+			return eleValue;
+		}
+		else {
+			log.info("Element not visible: " +elementName);
+			return "";
 		}
 	}
 	

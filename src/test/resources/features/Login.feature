@@ -1,8 +1,8 @@
+@Login
 Feature: Feature to Test Login functionality
 
- @TC01
-  Scenario: Validate Login is scuccessfll with valid credentials Functionality
+	=
+  Scenario: Validate Login is successfll with valid credentials
     Given user is on Twitter Login page
-    When user enter username and password
-    And click on login button
-    Then user is navigated  home page
+    When user enter username password and clicks on login button
+    Then user is navigated home page

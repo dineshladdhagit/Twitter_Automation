@@ -10,12 +10,14 @@ import io.cucumber.junit.Cucumber;
 @CucumberOptions(
 		features="src/test/resources/features",
 		glue= {"StepDefinitions"},
-		tags="@TC02",
-		dryRun=false
-		//plugin = {"pretty","html:target/HTMLReports"}
-		
+		//tags="@CaptureTweets",		//@ProfileUpdate",//@CaptureTweets",// and @ProfileUpdate",
+		dryRun=false,
+		//monochrome = true,
+		plugin={"pretty","html:target/HtmlReports",
+				"json:target/JSONReports/report.json",
+		"junit:target/JUnitReports/report.xml"}
 		)
 
 public class TestRunner {
-	
+
 }

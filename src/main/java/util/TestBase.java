@@ -33,14 +33,14 @@ public class TestBase {
 		if(browserName.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
-		
+
 			//System.setProperty("webdriver.chrome.driver", "/Users/dineshladdha/Downloads/chromedriver");
 			//driver = new ChromeDriver();
 		}
 		else if(browserName.equals("ff")){
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
-		
+
 			//System.setProperty("webdriver.gecko.driver", "/Users/dineshladdha/Downloads/geckodriver");
 			//driver = new ChromeDriver();
 		}
@@ -49,14 +49,13 @@ public class TestBase {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICT_WAIT, TimeUnit.SECONDS);
-		
+
 		// Launch the URL
 		String url = prop.getProperty("URL");
 		driver.get(url);
 		log.info("Launched "+url+" url");
 	}
 
-	
 	public static void loadConfiguration(){
 		//Log4J configuration
 		PropertyConfigurator.configure("src//main//resources//config//log4j.properties");
@@ -71,7 +70,5 @@ public class TestBase {
 			e.printStackTrace();
 		}
 	}
-
-
 
 }
