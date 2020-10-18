@@ -26,6 +26,13 @@ public class TestUtil {
 		}
 	}
 	
+	public void clear (WebElement element, String elementName){
+		if(dynamicWait(element,"VisibilityOfElementLocated")){
+			element.clear();
+			log.info("Cleared element "+elementName);
+		}
+	}
+	
 	public void sendkeys (WebElement element, String elementName, String value){
 		if(dynamicWait(element,"VisibilityOfElementLocated")){
 			if(dynamicWait(element,"ElementToBeClickable")){
@@ -42,7 +49,7 @@ public class TestUtil {
 	public String fetchValueFromWebElement (WebElement element, String elementName) {
 		if(dynamicWait(element, "VisibilityOfElementLocated")) {
 			String eleValue = element.getText();
-			log.info("Fetched value from label: " +elementName);
+			log.info("Fetched value from label: " +elementName+ " is : "+eleValue);
 			return eleValue;
 		}
 		else {

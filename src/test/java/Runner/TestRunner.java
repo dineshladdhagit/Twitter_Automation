@@ -10,11 +10,11 @@ import io.cucumber.junit.Cucumber;
 @CucumberOptions(
 		features="src/test/resources/features",
 		glue= {"StepDefinitions"},
-		tags="@Login",		//@ProfileUpdate",//@CaptureTweets",// and @ProfileUpdate",
+		tags="@ProfileUpdate",		//@ProfileUpdate",//@CaptureTweets",// and @Login",
 		dryRun=false,
-		//monochrome = true,
-		plugin={"pretty","html:target/HtmlReports",
-				"json:target/JSONReports/report.json",
+		monochrome = true,
+		plugin = {"pretty","html:HtmlReport",
+		"json:target/JSONReports/report.json",
 		"junit:target/JUnitReports/report.xml"}
 		)
 

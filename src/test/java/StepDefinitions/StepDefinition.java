@@ -18,7 +18,7 @@ import pages.ProfilePage;
 import pages.TwitterHandlePage;
 import util.TestBase;
 
-public class StepDefinition extends LoginPage {
+public class StepDefinition {
 
 	public static Logger log = Logger.getLogger(StepDefinition.class.getName());
 	LoginPage login;
@@ -56,7 +56,7 @@ public class StepDefinition extends LoginPage {
 
 	@When("user enter username password and clicks on login button")
 	public void user_enter_username_password_and_clicks_on_login_button() {
-		login.login(prop.getProperty("USERNAME"), prop.getProperty("PASSWORD"));
+		login.login(TestBase.prop.getProperty("USERNAME"), TestBase.prop.getProperty("PASSWORD"));
 	}
 
 	@Then("user is navigated home page")
@@ -67,8 +67,8 @@ public class StepDefinition extends LoginPage {
 	@When("user enters credentials to Login")
 	public void user_enters_credentials(DataTable usercredentials) throws Throwable {		
 	  for (Map<Object, Object> data : usercredentials.asMaps(Object.class, Object.class)) {
-		  login(data.get("userName").toString(), data.get("pwd").toString());
-		  login.validateLogin("false");
+		  login.login(data.get("userName").toString(), data.get("pwd").toString());
+		  login.validateLogin("inValid");
 	  }
 	}
 
@@ -76,7 +76,7 @@ public class StepDefinition extends LoginPage {
 	// Profile Feature Glue code
 	@Given("user is logged in on twitter")
 	public void user_is_logged_in_on_twitter() {
-		login.login(prop.getProperty("USERNAME"), prop.getProperty("PASSWORD"));
+		login.login(TestBase.prop.getProperty("USERNAME"), TestBase.prop.getProperty("PASSWORD"));
 	}
 
 	@When("user navigates to profile page and updates photo location bio and website")

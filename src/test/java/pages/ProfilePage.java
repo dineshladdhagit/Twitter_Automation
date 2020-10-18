@@ -72,13 +72,13 @@ public class ProfilePage extends TestBase {
 		 * utils.click(applyBtn, "Apply Button");
 		 */
 
-		profileBio.clear();
+		utils.clear(profileBio, "Profile Bio Field");
 		utils.sendkeys(profileBio, "Profile Bio Field", prop.getProperty("BIODESCRIPTION"));
 
-		profileLocation.clear();
+		utils.clear(profileLocation, "Profile Location Field");
 		utils.sendkeys(profileLocation, "Profile Location Field", prop.getProperty("LOCATION"));
 
-		profileWebsite.clear();
+		utils.clear(profileWebsite, "Profile Website Field");
 		utils.sendkeys(profileWebsite, "Profile Website Field", prop.getProperty("WEBSITE"));
 
 		utils.click(saveBtn, "Profile Save Button");
